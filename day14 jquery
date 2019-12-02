@@ -1,0 +1,11 @@
+#  jquery
+
+![](/home/xin/java15/day13/img/40.png)
+
+网站 https://learn.jquery.com
+
+1.引入知名CDN网站的
+
+https://cdn.bootcss.com/jquery/3.4.1/core.js
+
+2.下载 jquery.js 使用script标签引入
