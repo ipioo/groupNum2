@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script >
+				
+		 function sendVerifyMail(){
+			   var _url = global.basePath + "oth/find_password_mail.do";
+			   var reg = new RegExp("^[a-z0-9A-Z]+[- | a-z0-9A-Z . _]+@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-z]{2,}$"); 
+			   var email = $('#email').val();
+			   if(email == ''){
+				  dialogMessage("邮箱不能为空！");
+				return false;
+			}else if(!reg.test(email)){
+				dialogMessage("邮箱格式不正确，请重新输入！");
+				return false;
+			}else{
+				$.post(_url,{'email':email},function(result){
+					var obj = $.parseJSON(result);
+					dialogMessage(obj.message);
+				});	
+			}
+		}									       
+	</script>
+</body>
+</html>
