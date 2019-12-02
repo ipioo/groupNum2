@@ -1,0 +1,59 @@
+body {
+  background-color: #e6e6e6;
+  min-width: 500px; }
+
+.nav-pills > li + li {
+  margin-left: 0px; }
+
+.topnav li {
+  margin-top: 10px; }
+
+.nav {
+  width: 100%;
+  height: 50px;
+  min-width: 500px;
+  background-color: white; }
+  .nav ul li p {
+    line-height: 50px; }
+
+.topnav li {
+  margin-top: 10px; }
+
+.contentBox {
+  margin-top: 50px; }
+  .contentBox .contentHeader .search {
+    height: 55px; }
+    .contentBox .contentHeader .search input {
+      height: 40px;
+      margin-top: 15px; }
+  .contentBox .contentHeader .loginCondition {
+    height: 20px;
+    color: #969595;
+    line-height: 20px; }
+  .contentBox .content {
+    height: 50px;
+    background-color: white;
+    border-radius: 3px; }
+    .contentBox .content .Profile {
+      width: 50px;
+      float: left; }
+      .contentBox .content .Profile img {
+        margin-left: 5px;
+        margin-top: 5px;
+        height: 40px; }
+    .contentBox .content .Message {
+      width: 80%;
+      margin-left: 10px;
+      height: 50px;
+      float: left;
+      border-bottom: #7b797966 1px solid; }
+      .contentBox .content .Message span {
+        display: block;
+        line-height: 25px;
+        margin-bottom: 0px; }
+      .contentBox .content .Message .user {
+        float: left; }
+      .contentBox .content .Message .mate {
+        float: right; }
+
+/*# sourceMappingURL=home.css.map */

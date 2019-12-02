@@ -1,0 +1,90 @@
+@charset "UTF-8";
+body {
+  background-color: white;
+  min-width: 500px; }
+
+.nav-pills > li + li {
+  margin-left: 0px; }
+
+.topnav li {
+  margin-top: 10px; }
+
+.nav {
+  width: 100%;
+  height: 50px;
+  min-width: 500px;
+  background-color: white; }
+
+.nav > li > a {
+  padding: 0px 15px; }
+
+.content {
+  margin-top: 60px; }
+  .content .messageLeft, .content .messageRight {
+    margin-left: 15px;
+    margin-right: 15px; }
+    .content .messageLeft img, .content .messageRight img {
+      height: 35px; }
+    .content .messageLeft .msg .send, .content .messageRight .msg .send {
+      position: relative;
+      background: rgba(11, 185, 216, 0.31);
+      border-radius: 5px;
+      /* 圆角 */
+      margin: 30px auto 0; }
+      .content .messageLeft .msg .send .arrow, .content .messageRight .msg .send .arrow {
+        position: absolute;
+        right: -16px;
+        /* 圆角的位置需要细心调试哦 */
+        width: 0;
+        height: 0;
+        font-size: 0;
+        border: solid 8px;
+        border-color: #4d494800 #4d494800 #4d494800 rgba(11, 185, 216, 0.31); }
+      .content .messageLeft .msg .send .arrow1, .content .messageRight .msg .send .arrow1 {
+        position: absolute;
+        left: -16px;
+        /* 圆角的位置需要细心调试哦 */
+        width: 0;
+        height: 0;
+        font-size: 0;
+        border: solid 8px;
+        border-color: #4d494800 rgba(11, 185, 216, 0.31) #4d494800 #4d494800; }
+    .content .messageLeft .msg p, .content .messageRight .msg p {
+      margin: 0 5px;
+      padding-top: 5px;
+      line-height: 20px;
+      color: #5bc0de; }
+
+.img-two {
+  float: right; }
+
+.msg-two {
+  float: right;
+  max-width: 50%;
+  min-width: 100px; }
+
+.send-two {
+  position: relative;
+  background: rgba(11, 185, 216, 0.31);
+  border-radius: 5px;
+  /* 圆角 */
+  margin-top: 10px;
+  margin-right: 5px;
+  float: right; }
+  .send-two p {
+    margin: 0 5px;
+    padding-top: 5px;
+    line-height: 20px;
+    color: #5bc0de; }
+
+.arrow-two {
+  position: absolute;
+  right: -16px;
+  /* 圆角的位置需要细心调试哦 */
+  width: 0;
+  height: 0;
+  font-size: 0;
+  border: solid 8px;
+  border-color: #4d494800 #4d494800 #4d494800 rgba(11, 185, 216, 0.31); }
+
+/*# sourceMappingURL=message.css.map */

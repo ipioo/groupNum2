@@ -1,0 +1,86 @@
+@charset "UTF-8";
+body{
+  background-color: #e6e6e6;
+  min-width: 500px;
+}
+.nav-pills>li+li{
+  margin-left: 0px;
+}
+.topnav {
+  li{
+    margin-top: 10px;
+  }
+}
+.nav{
+  min-width: 500;
+  height: 50px;
+  min-width: 500px;
+  background-color: white;
+  ul{
+    li{
+      p{
+        line-height: 50px;
+      }
+    }
+  }
+}
+.topnav {
+  li{
+    margin-top: 10px;
+  }
+}
+.contentBox{
+  margin-top: 50px;
+  width: 100%;
+  .contentHeader{
+    .search{
+      height: 55px;
+      input{
+        height: 40px;
+        margin-top: 15px;
+      }
+    }
+  }
+.searchlist{
+  position: absolute;
+  right: 15px;
+  color: #a9a7a7b5;
+  li{
+    text-align: center;
+  }
+}
+  .content{
+    height: 50px;
+    background-color: white;
+    //margin: 5px 0px;
+    border-radius: 3px;
+    .Profile{
+      width: 50px;
+      float: left;
+      img{
+        margin-left: 5px;
+        margin-top: 5px;
+        height: 40px;
+      }
+    }
+    .Message{
+      width: 80%;
+      margin-left: 10px;
+      height: 50px;
+      float: left;
+      border-bottom: #7b797966 1px solid;
+      span{
+        display: block;
+        line-height: 50px;
+      }
+    }
+  }
+  .jian{
+    height: 30px;
+    line-height: 30px;
+  }
+  .jian1{
+    @extend .jian;
+  }
+
+}

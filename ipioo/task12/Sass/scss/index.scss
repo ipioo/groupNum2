@@ -1,0 +1,19 @@
+.row {
+  background-color: antiquewhite;
+  width: 100%;
+  div {
+    background-color: blueviolet;
+    border: blue 1px dashed;
+    height: 25px;
+  }
+}
+
+@each $animal-min,$animal-max, $class in (0px,749px,xs), (750px,969px,sm), (970px,1169px,md), (1170px,9999px,lg) {
+  @media (min-width: $animal-min) and (max-width: $animal-max){
+    @for $i from 1 through 12 {
+      .#{$class}-#{$i} { width: 100%/12 * $i; }
+    }
+  }
+}
+
+
